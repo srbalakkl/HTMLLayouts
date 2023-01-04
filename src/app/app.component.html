@@ -1,0 +1,36 @@
+<style>
+  .flexbox-container {
+    height: 700px;
+    display: flex;
+    background-color: yellowgreen;
+    align-items: center;
+    /*align-content: first;*/
+  }
+
+  .flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: aqua;
+  }
+
+  .flexbox-item-1 {
+    min-height: 100px;
+    flex-shrink: 1;
+  }
+
+  .flexbox-item-2 {
+    min-height: 200px;
+  }
+
+  .flexbox-item-3 {
+    min-height: 300px;
+  }
+</style>
+
+
+<div class="flexbox-container">
+  <div class="flexbox-item flexbox-item-1">Flex Item 1 8888888888</div>
+  <div class="flexbox-item flexbox-item-2">Flex Item 2 8888888888 </div>
+  <div class="flexbox-item flexbox-item-3">Flex Item 3 8888888888</div>
+</div>
